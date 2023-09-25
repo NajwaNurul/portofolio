@@ -1,0 +1,23 @@
+program lat3;
+uses crt;
+var
+
+a,b,jumlah: integer;
+begin
+clrscr;
+
+//proses input
+Write ('masukan nilai pertama :' );
+readln (a);
+Write ('masukan nilai kedua :');
+readln (b);
+
+//proses perhitungan
+jumlah :=a+b;
+
+//proses output
+writeln ('----------------');
+writeln ('jumlah dari perhitungan a+b adalah', jumlah);
+
+readln;
+end.

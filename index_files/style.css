@@ -134,7 +134,11 @@ nav h1 {
 }
 
 #about {
+    height: 100vh;
     background-color: #eee;
-    padding: 50px;
-    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: first baseline;
+
 }
